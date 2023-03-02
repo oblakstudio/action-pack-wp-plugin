@@ -11,6 +11,9 @@ inputs:
   include_files:
     description: A list of files to include in the release
     required: true
+  version_file:
+    description: The name of the file that contains the version number
+    required: true
 
 runs:
   using: composite
