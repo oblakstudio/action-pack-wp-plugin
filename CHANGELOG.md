@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/oblakstudio/action-pack-wp-plugin/compare/v1.0.0...v1.0.1) (2023-03-02)
+
+
+### Bug Fixes
+
+* Added branding color and icon ([a1100a3](https://github.com/oblakstudio/action-pack-wp-plugin/commit/a1100a344da7602bd570f391c11461ea40cda14a))
+
 # 1.0.0 (2023-03-02)
 
 
