@@ -1,5 +1,8 @@
 name: Pack WP Plugin
 description: Pack WP plugin files into a zip file that is ready for deployment
+branding:
+  icon: archive
+  color: blue
 inputs:
   plugin_slug:
     description: The slug of the plugin to pack
