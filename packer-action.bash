@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-NEXT_VERSION=$(npm run semantic-release --dry-run | grep -oP 'Published release \K.*? ')
+NEXT_VERSION=$(npm run semantic-release --ci false --dryRun | grep -oP 'Published release \K.*? ')
 CURRENT_VERSION=$(< "$ACTION_VERSION_FILE" grep Version | head -1 | awk -F= "{ print $2 }" | sed 's/[Version:,\",]//g' | tr -d ':space:')
 
 sed -i "s/$CURRENT_VERSION/$NEXT_VERSION/g" "$ACTION_VERSION_FILE"
