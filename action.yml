@@ -1,0 +1,25 @@
+name: Pack WP Plugin
+description: Pack WP plugin files into a zip file that is ready for deployment
+inputs:
+  plugin_slug:
+    description: The slug of the plugin to pack
+    required: true
+  output_file:
+    description: The name of the output file
+    required: false
+    default: /tmp/release.zip
+  include_files:
+    description: A list of files to include in the release
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - env:
+        ACTION_PLUGIN_SLUG: ${{ inputs.plugin_slug }}
+        ACTION_OUTPUT_FILE: ${{ inputs.output_file }}
+        ACTION_INCLUDE_FILES: ${{ inputs.include_files }}
+      id: plugin_pack
+      run: |
+        ${{ github.action_path }}/packer-action.bash
+      shell: bash
