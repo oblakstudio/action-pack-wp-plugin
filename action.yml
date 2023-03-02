@@ -22,6 +22,7 @@ runs:
         ACTION_PLUGIN_SLUG: ${{ inputs.plugin_slug }}
         ACTION_OUTPUT_FILE: ${{ inputs.output_file }}
         ACTION_INCLUDE_FILES: ${{ inputs.include_files }}
+        ACTION_VERSION_FILE: ${{ inputs.version_file }}
       id: plugin_pack
       run: |
         ${{ github.action_path }}/packer-action.bash
