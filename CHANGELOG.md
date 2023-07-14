@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/oblakstudio/action-pack-wp-plugin/compare/v2.0.0...v2.0.1) (2023-07-14)
+
+
+### Bug Fixes
+
+* Implemented version file ([b04885d](https://github.com/oblakstudio/action-pack-wp-plugin/commit/b04885d54bf32a2cd89b7204abdd05142422253e))
+
 # [2.0.0](https://github.com/oblakstudio/action-pack-wp-plugin/compare/v1.0.1...v2.0.0) (2023-07-14)
 
 
