@@ -11,12 +11,6 @@ inputs:
     description: The name of the output file
     required: false
     default: /tmp/release.zip
-  include_files:
-    description: A list of files to include in the release
-    required: true
-  version_file:
-    description: The name of the file that contains the version number
-    required: true
 
 runs:
   using: composite
@@ -24,8 +18,6 @@ runs:
     - env:
         ACTION_PLUGIN_SLUG: ${{ inputs.plugin_slug }}
         ACTION_OUTPUT_FILE: ${{ inputs.output_file }}
-        ACTION_INCLUDE_FILES: ${{ inputs.include_files }}
-        ACTION_VERSION_FILE: ${{ inputs.version_file }}
       id: plugin_pack
       run: |
         ${{ github.action_path }}/packer-action.bash
