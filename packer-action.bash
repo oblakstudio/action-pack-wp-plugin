@@ -49,4 +49,6 @@ fi
 
 cd /tmp
 zip -qr "$ACTION_OUTPUT_FILE" "$ACTION_PLUGIN_SLUG"
+
+echo "$NEXT_VERSION" > /tmp/VERSION
 echo "name=output_file::${ACTION_OUTPUT_FILE}" >> "$GITHUB_OUTPUT"
