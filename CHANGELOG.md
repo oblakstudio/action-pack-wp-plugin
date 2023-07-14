@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/oblakstudio/action-pack-wp-plugin/compare/v1.0.1...v2.0.0) (2023-07-14)
+
+
+### Features
+
+* Reworked the entire action ([cadec75](https://github.com/oblakstudio/action-pack-wp-plugin/commit/cadec75a08ba2173d5c6d18cad539b778b753614))
+
+
+### BREAKING CHANGES
+
+* Uses .distinclude to find the files
+
 ## [1.0.1](https://github.com/oblakstudio/action-pack-wp-plugin/compare/v1.0.0...v1.0.1) (2023-03-02)
 
 
