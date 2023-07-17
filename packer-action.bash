@@ -8,6 +8,7 @@ find_plugin_version() {
   while IFS= read -r -d $'\0' file; do
     if grep -q '^\s*\* Plugin Name:' "$file"; then
       version=$(grep -oP '^\s*\*\s*Version:\s*\K.*' "$file" | tr -d '[:space:]')
+      version=${version// /}  # Remove whitespace using parameter expansion
       break
     fi
   done < <(find . -maxdepth 1 -type f -name "*.php" -print0)
