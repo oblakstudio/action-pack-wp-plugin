@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/oblakstudio/action-pack-wp-plugin/compare/v2.0.1...v2.0.2) (2023-07-17)
+
+
+### Bug Fixes
+
+* Removed whitespace from version ([2520fbc](https://github.com/oblakstudio/action-pack-wp-plugin/commit/2520fbca1fde41ceb83f36c7e2cc65e6c1e1152c))
+
 ## [2.0.1](https://github.com/oblakstudio/action-pack-wp-plugin/compare/v2.0.0...v2.0.1) (2023-07-14)
 
 
