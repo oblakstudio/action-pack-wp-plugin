@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/oblakstudio/action-pack-wp-plugin/compare/v2.0.2...v2.1.0) (2023-07-28)
+
+
+### Features
+
+* removed version incrementation from action ([26a25e1](https://github.com/oblakstudio/action-pack-wp-plugin/commit/26a25e10eaeb14f35bdb0df8d73f09909e59e4e8))
+
 ## [2.0.2](https://github.com/oblakstudio/action-pack-wp-plugin/compare/v2.0.1...v2.0.2) (2023-07-17)
 
 
