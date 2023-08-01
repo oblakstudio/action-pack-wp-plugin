@@ -1,3 +1,3 @@
 # action-pack-wp-plugin
 
-Packs and prepares a WordPress plugin for distribution.
+**This action has been deprecated in favor of Semantic release [plugin](https://github.com/oblakstudio/semantic-release-wp-plugin)**
